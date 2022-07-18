@@ -4,13 +4,13 @@
     <main>
         <table>
             <thead>
-                <th>
+                <tr>
                     <td>Id</td>
                     <td>titolo</td>
                     <td>descrizione</td>
                     <td>genere</td>
                     <td>prezzo</td>
-                </th>
+                </tr>
             </thead>
             <tbody>
                 @foreach ($comics as $comic)
